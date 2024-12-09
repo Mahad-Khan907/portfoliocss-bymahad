@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.main-container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+.mypic {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.my-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* color: white; */
+    line-height: 55px;
+}
+
+.hi-text {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+h4 {
+    color: orangered;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0; 
+}
+
+.Frontend-text {
+    color: blue;
+}
+
+button {
+    background-color: #f97316; 
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+button:hover {
+    background-color: #ea580c; 
+}
+
+@media(max-width: 786px) {
+    .main-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mypic {
+        margin: 10px 0;
+    }
+
+    .my-text {
+        align-items: center;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}
